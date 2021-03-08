@@ -11,6 +11,7 @@
 		374D07C225F6A927004F812D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D07C125F6A927004F812D /* ContentView.swift */; };
 		374D07C425F6A92A004F812D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 374D07C325F6A92A004F812D /* Assets.xcassets */; };
 		374D07C725F6A92A004F812D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 374D07C625F6A92A004F812D /* Preview Assets.xcassets */; };
+		374D07D125F6AA6A004F812D /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D07D025F6AA6A004F812D /* GameSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		374D07C325F6A92A004F812D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		374D07C625F6A92A004F812D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		374D07C825F6A92A004F812D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		374D07D025F6AA6A004F812D /* GameSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		374D07BE25F6A927004F812D /* Minesweeper */ = {
 			isa = PBXGroup;
 			children = (
+				374D07CF25F6AA30004F812D /* Model */,
 				374D07BF25F6A927004F812D /* MinesweeperApp.swift */,
 				374D07C125F6A927004F812D /* ContentView.swift */,
 				374D07C325F6A92A004F812D /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				374D07C625F6A92A004F812D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		374D07CF25F6AA30004F812D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				374D07D025F6AA6A004F812D /* GameSettings.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				374D07C225F6A927004F812D /* ContentView.swift in Sources */,
 				374D07C025F6A927004F812D /* MinesweeperApp.swift in Sources */,
+				374D07D125F6AA6A004F812D /* GameSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
