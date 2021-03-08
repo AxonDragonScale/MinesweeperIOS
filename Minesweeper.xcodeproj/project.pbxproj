@@ -16,6 +16,7 @@
 		374D07D825F6ADC8004F812D /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D07D725F6ADC8004F812D /* Cell.swift */; };
 		374D07DB25F6B0C5004F812D /* Cell+Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D07DA25F6B0C5004F812D /* Cell+Type.swift */; };
 		374D07DF25F6B142004F812D /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D07DE25F6B142004F812D /* CellView.swift */; };
+		374D07E325F6BB01004F812D /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D07E225F6BB01004F812D /* BoardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		374D07D725F6ADC8004F812D /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		374D07DA25F6B0C5004F812D /* Cell+Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cell+Type.swift"; sourceTree = "<group>"; };
 		374D07DE25F6B142004F812D /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		374D07E225F6BB01004F812D /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				374D07DE25F6B142004F812D /* CellView.swift */,
+				374D07E225F6BB01004F812D /* BoardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 				374D07C025F6A927004F812D /* MinesweeperApp.swift in Sources */,
 				374D07D825F6ADC8004F812D /* Cell.swift in Sources */,
 				374D07D125F6AA6A004F812D /* GameSettings.swift in Sources */,
+				374D07E325F6BB01004F812D /* BoardView.swift in Sources */,
 				374D07D525F6AD32004F812D /* Game.swift in Sources */,
 				374D07DF25F6B142004F812D /* CellView.swift in Sources */,
 			);
