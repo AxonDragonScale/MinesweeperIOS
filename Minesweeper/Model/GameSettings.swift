@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 class GameSettings: ObservableObject {
-    @Published var numRows = 10
+    @Published var numRows = 15
     @Published var numCols = 10
     @Published var numBombs = 10
     

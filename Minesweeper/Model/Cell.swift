@@ -37,6 +37,9 @@ class Cell {
             }
             return Image("\(surroundingBombs)")
         case .bomb:
+//            if !isOpened {
+//                return Image("normal")
+//            }
             return Image("bomb")
         }
     }
