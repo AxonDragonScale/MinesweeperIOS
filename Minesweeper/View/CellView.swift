@@ -16,6 +16,12 @@ struct CellView: View {
             .resizable()
             .scaledToFill()
             .frame(width: game.settings.squareSize, height: game.settings.squareSize, alignment: .center)
+            .onTapGesture {
+                game.open(cell: cell)
+            }
+            .onLongPressGesture {
+                game.toggleFlagFor(cell: cell)
+            }
     }
 }
 

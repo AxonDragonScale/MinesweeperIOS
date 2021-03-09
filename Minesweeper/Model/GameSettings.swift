@@ -9,11 +9,17 @@ import Foundation
 import SwiftUI
 
 class GameSettings: ObservableObject {
-    @Published var numRows = 15
     @Published var numCols = 10
-    @Published var numBombs = 10
     
     var squareSize: CGFloat {
         UIScreen.main.bounds.width / CGFloat(numCols)
+    }
+    
+    var numRows: Int {
+        Int(UIScreen.main.bounds.height / squareSize) - 1
+    }
+    
+    var numBombs: Int {
+        numCols * numRows / 10
     }
 }

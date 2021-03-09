@@ -25,9 +25,7 @@ class Cell {
         }
         
         switch type {
-        case .normal:
-            return Image("normal")
-        case .exposed(let surroundingBombs):
+        case .normal(let surroundingBombs):
             if !isOpened {
                 return Image("normal")
             }
@@ -37,9 +35,9 @@ class Cell {
             }
             return Image("\(surroundingBombs)")
         case .bomb:
-//            if !isOpened {
-//                return Image("normal")
-//            }
+            if !isOpened {
+                return Image("normal")
+            }
             return Image("bomb")
         }
     }
@@ -47,7 +45,7 @@ class Cell {
     init(row: Int, col: Int) {
         self.row = row
         self.col = col
-        self.type = .normal
+        self.type = .normal(-1) // Not decided
         self.isOpened = false
         self.isFlagged = false
     }

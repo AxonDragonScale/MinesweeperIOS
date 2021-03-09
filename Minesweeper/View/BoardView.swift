@@ -19,7 +19,13 @@ struct BoardView: View {
                     }
                 }
             }
-        }
+        }.alert(isPresented: $game.gameOver, content: {
+            Alert(title: Text("Game Over"),
+                  message: Text("You stepped on a mine"),
+                  dismissButton: .default(Text("Play Again")) {
+                    game.reset()
+                  })
+        })
     }
 }
 
